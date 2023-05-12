@@ -53,6 +53,34 @@ button {
   border: 1px solid #ff7e00;
 }
 
+.btn-dorminant {
+  background-color: transparent !important;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/* about section */
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #1c1e22;
+  border: 1.5px solid #26292d;
+  border-radius: 8px;
+}
+
+.about-section .content {
+  width: 65%;
+}
+
+.about-section .img {
+  width: 35%;
+  border-radius: 8px;
+}
+
 @media (max-width: 768px) {
   .home-container {
     padding: 1rem;
@@ -76,5 +104,33 @@ button {
     padding: 0.8rem 1.5rem;
     font-size: 1rem;
     margin: 0.5rem;
+  }
+
+  /* about section */
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 90%;
+    margin: 70px 15px;
+    background-color: #1c1e22;
+    border: 1.5px solid #26292d;
+    border-radius: 8px;
+  }
+
+  .about-section .content {
+    width: 100%;
+    padding-top: 40px;
+  }
+
+  .about-section .img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .about-section .img img {
+    width: 350px;
+    border-radius: 8px;
   }
 }

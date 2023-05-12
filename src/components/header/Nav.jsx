@@ -19,9 +19,7 @@ const Nav = () => {
       <ul>
         <div>
           <li>
-            <NavLink exact to="/" className="logo-link">
-              <h2 className="logo">SekoViper</h2>
-            </NavLink>
+            <h2 className="logo">SekoViper</h2>
           </li>
         </div>
         {/* mobile menu */}

@@ -1,5 +1,4 @@
 nav {
-  /* padding: 20px; */
   box-shadow: 0 0 10px #0000001a;
   border-bottom: solid 1px #ffffff1a;
 }
@@ -9,7 +8,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 10px;
   width: 90%;
   margin: 0 auto;
 }
@@ -72,14 +71,16 @@ ul li a {
     display: none;
     flex-direction: column;
     padding: 20px;
-    background-color: #171718;
+    background-color: #000;
     line-height: 2.3;
+    height: 80vh;
   }
 }
 
 @media only screen and (max-width: 480px) {
   .logo {
     font-size: 24px;
+    margin-left: -12px;
   }
 
   ul {
@@ -95,6 +96,8 @@ ul li a {
     z-index: 99;
     background-color: transparent;
     border: none;
+    margin-right: -28px;
+    cursor: pointer;
   }
 
   .menu-desktop {

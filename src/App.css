@@ -18,8 +18,12 @@
 html,
 body {
   height: 100%;
-  background-color: #171718;
+  background-color: #000;
   color: #fff;
+}
+
+p {
+  font-weight: 100 !important;
 }
 
 /* Typographic tweaks! */
@@ -69,20 +73,4 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
-}
-
-@media only screen and (max-width: 768px) {
-  /* html,
-  body {
-    width: 95%;
-    margin: 0 auto;
-  } */
-}
-
-@media only screen and (max-width: 480px) {
-  /* html,
-  body {
-    width: 95%;
-    margin: 0 auto;
-  } */
 }

@@ -94,6 +94,8 @@ ul li a {
   .menu-icon {
     display: inline-block;
     z-index: 99;
+    background-color: transparent;
+    border: none;
   }
 
   .menu-desktop {

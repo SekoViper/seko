@@ -26,23 +26,21 @@ const Nav = () => {
         </div>
         {/* mobile menu */}
         <div className="menu">
-          {/* <img
+          <button
+            type="button"
             className="menu-icon"
-            src={showMenu ? closeIcon : menuIcon}
-            alt="menu icon"
-            onClick={toggleMenu}
-          /> */}
-          <img
-            className="menu-icon"
-            src={showMenu ? closeIcon : menuIcon}
-            alt="menu icon"
             onClick={toggleMenu}
             onKeyDown={(e) => {
               if (e.key === 'Enter') {
                 toggleMenu();
               }
             }}
-          />
+          >
+            <img
+              src={showMenu ? closeIcon : menuIcon}
+              alt="menu icon"
+            />
+          </button>
           {showMenu && (
             <div className="menu-items" style={{ display: showMenu ? 'flex' : 'none' }}>
               <li>

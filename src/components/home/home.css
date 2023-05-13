@@ -59,6 +59,12 @@ button {
   border: 1px solid #fff;
 }
 
+.social-icons {
+  display: flex;
+  margin-top: 2rem;
+  gap: 27px;
+}
+
 /* about section */
 .about-section {
   display: flex;

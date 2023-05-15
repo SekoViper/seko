@@ -87,6 +87,64 @@ button {
   border-radius: 8px;
 }
 
+/* Projects section
+.projects-tiltle {
+  text-align: center;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.project div {
+  width: 50%;
+}
+
+.project-content {
+  padding: 15px;
+}
+
+.project-content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.project-built {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.3rem;
+  gap: 1rem;
+}
+
+.project-built span {
+  background-color: #1c1e22;
+  padding: 8px 20px;
+}
+
+.projects {
+  margin-bottom: 90px;
+}
+
+.projects-links {
+  margin: 0;
+  padding: 0;
+}
+
+.project-link {
+  border: solid 1px #fff;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+} */
+
+
+/* __________________Mobile____________________ */
+
 @media (max-width: 768px) {
   .home-container {
     padding: 1rem;

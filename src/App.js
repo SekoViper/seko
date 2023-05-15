@@ -4,7 +4,6 @@ import Home from './components/home/Home';
 import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
-import Blog from './components/blogs/Blog';
 import Project from './components/projects/Project';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blogs" element={<Blog />} />
           <Route path="/projects" element={<Project />} />
         </Routes>
       </div>

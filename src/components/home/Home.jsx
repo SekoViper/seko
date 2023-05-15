@@ -1,6 +1,7 @@
 import React from 'react';
 import './home.css';
 import Project from '../projects/Project';
+import Contact from '../contact/Contact';
 import profilePic from '../../assets/img/Seko _Dameh_Livingstone_about_img.png';
 import GithubIcon from '../../assets/img/github_btn_icon.svg';
 import TwitterIcon from '../../assets/img/twiter_icon.svg';
@@ -54,6 +55,7 @@ const Home = () => (
         </div>
       </section>
       <Project />
+      <Contact />
     </main>
   </>
 );

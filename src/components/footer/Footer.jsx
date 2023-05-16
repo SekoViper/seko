@@ -23,10 +23,10 @@ const Footer = () => (
       <div>
         <h4>Connect with me</h4>
         <div className="social-icons">
-          <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" /></a>
-          <a href="https://twitter.com/sekoviper" target="_blank" rel="noreferrer"><img src={TwitterIcon} alt="Twiter" /></a>
-          <a href="https://linkedin.com/in/livingstone-dameh-b755a5151" target="_blank" rel="noreferrer"><img src={LinkedinIcon} alt="Github" /></a>
-          <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={MediumIcon} alt="Github" /></a>
+          <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" className="social-icon" /></a>
+          <a href="https://twitter.com/sekoviper" target="_blank" rel="noreferrer"><img src={TwitterIcon} alt="Twiter" className="social-icon" /></a>
+          <a href="https://linkedin.com/in/livingstone-dameh-b755a5151" target="_blank" rel="noreferrer"><img src={LinkedinIcon} alt="LinkedIn" className="social-icon" /></a>
+          <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={MediumIcon} alt="Medium" className="social-icon" /></a>
         </div>
       </div>
     </footer>

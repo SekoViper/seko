@@ -7,6 +7,7 @@ import GithubIcon from '../../assets/img/github_btn_icon.svg';
 import TwitterIcon from '../../assets/img/twiter_icon.svg';
 import LinkedinIcon from '../../assets/img/Linkedin_icon.svg';
 import MediumIcon from '../../assets/img/medium_icon.svg';
+import Footer from '../footer/Footer';
 
 const Home = () => (
   <>
@@ -54,8 +55,15 @@ const Home = () => (
           <button className="btn-dorminant" type="button">get to know more</button>
         </div>
       </section>
-      <Project />
-      <Contact />
+      <section>
+        <Project />
+      </section>
+      <section>
+        <Contact />
+      </section>
+      <section>
+        <Footer />
+      </section>
     </main>
   </>
 );

@@ -47,16 +47,6 @@ const Nav = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink exact to="/blogs" onClick={toggleMenu}>
-                  Blogs
-                </NavLink>
-              </li>
-              <li>
-                <NavLink exact to="/about" onClick={toggleMenu}>
-                  About Me
-                </NavLink>
-              </li>
-              <li>
                 <NavLink exact to="/projects" onClick={toggleMenu}>
                   Projects
                 </NavLink>
@@ -81,16 +71,6 @@ const Nav = () => {
             <li>
               <NavLink exact to="/">
                 Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/blogs">
-                Blogs
-              </NavLink>
-            </li>
-            <li>
-              <NavLink exact to="/about">
-                About Me
               </NavLink>
             </li>
             <li>

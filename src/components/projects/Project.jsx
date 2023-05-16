@@ -1,7 +1,6 @@
 import React from 'react';
 import './project.css';
 import TvShows from '../../assets/img/tv_shows.png';
-import Footer from '../footer/Footer';
 
 const Project = () => (
   <>
@@ -57,7 +56,6 @@ const Project = () => (
         </div>
       </div>
     </section>
-    <Footer />
   </>
 );
 

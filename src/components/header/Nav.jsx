@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { gsap } from 'gsap';
 import './nav.css';
@@ -7,8 +7,11 @@ import closeIcon from '../../assets/img/close-icon.png';
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
-  gsap.fromTo('.nav-link-item', { opacity: 0, y: -20 }, {
-    opacity: 1, y: 0, duration: 1, stagger: 0.2, delay: 1, ease: 'power2.out',
+
+  useEffect(() => {
+    gsap.fromTo('.nav-link-item', { opacity: 0, y: -20 }, {
+      opacity: 1, y: 0, duration: 1, stagger: 0.5, delay: 1, ease: 'power2.out',
+    });
   });
 
   const toggleMenu = () => {
@@ -22,7 +25,7 @@ const Nav = () => {
     <nav>
       <ul>
         <div>
-          <li>
+          <li className="nav-link-item">
             <h2 className="logo">SekoViper</h2>
           </li>
         </div>

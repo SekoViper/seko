@@ -34,6 +34,7 @@
 .project-built span {
   background-color: #1c1e22;
   padding: 8px 20px;
+  width: fit-content;
 }
 
 .projects {
@@ -51,6 +52,20 @@
   color: #fff;
   border-radius: 6px;
   text-decoration: none;
+  text-align: center;
+  width: fit-content;
+}
+
+.project-links :hover {
+  border: solid 1px #000;
+  background-color: chocolate;
+  color: #000;
+}
+
+.gs_reveal {
+  opacity: 0;
+  visibility: hidden;
+  will-change: transform, opacity;
 }
 
 /* __________________Mobile____________________ */

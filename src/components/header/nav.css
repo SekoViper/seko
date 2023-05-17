@@ -23,7 +23,6 @@ ul li a {
   font-size: 18px;
   font-weight: 500;
   font-weight: 100;
-  transition: color 0.3s ease;
 }
 
 .logo {
@@ -45,20 +44,8 @@ ul li a {
 
 .menu-items-desktop {
   display: flex;
-  animation: slideInDesktop 0.3s ease forwards;
-  opacity: 0;
 }
 
-@keyframes slideInDesktop {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
 .menu-desktop {
   display: flex;
@@ -67,12 +54,11 @@ ul li a {
 .resume-link {
   border: solid 1px #ff6f00;
   padding: 10px 20px;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .resume-link:hover {
   background-color: #db9056;
-  color: #000000!important;
+  color: #000 !important;
   cursor: pointer;
 }
 
@@ -99,25 +85,12 @@ ul li a:hover {
     background-color: #000;
     line-height: 2.3;
     height: 80vh;
-    opacity: 0;
-    animation: slideInMobile 0.3s ease forwards;
   }
 
-  @keyframes slideInMobile {
-    0% {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .menu-items.show {
+  /* .menu-items.show {
     display: flex;
     animation: none;
-  }
+  } */
 }
 
 @media only screen and (max-width: 480px) {
@@ -141,7 +114,6 @@ ul li a:hover {
     border: none;
     margin-right: -28px;
     cursor: pointer;
-    transition: transform 0.3s ease;
   }
 
   .menu-icon.open {

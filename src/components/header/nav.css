@@ -44,6 +44,7 @@ ul li a {
 
 .menu-items-desktop {
   display: flex;
+  align-items: center;
 }
 
 .menu-desktop {
@@ -53,12 +54,23 @@ ul li a {
 .resume-link {
   border: solid 1px #ff6f00;
   padding: 10px 20px;
+  width: fit-content;
 }
 
 .resume-link:hover {
-  background-color: #ff6f00;
-  color: #fff;
+  background-color: #db9056;
+  color: #000 !important;
   cursor: pointer;
+}
+
+/* Hover Effects */
+
+ul li a:hover {
+  color: #ff6f00;
+}
+
+.menu-items-desktop a:hover {
+  color: #ff6f00;
 }
 
 @media only screen and (max-width: 768px) {
@@ -75,6 +87,11 @@ ul li a {
     line-height: 2.3;
     height: 80vh;
   }
+
+  /* .menu-items.show {
+    display: flex;
+    animation: none;
+  } */
 }
 
 @media only screen and (max-width: 480px) {
@@ -98,6 +115,10 @@ ul li a {
     border: none;
     margin-right: -28px;
     cursor: pointer;
+  }
+
+  .menu-icon.open {
+    transform: rotate(90deg);
   }
 
   .menu-desktop {

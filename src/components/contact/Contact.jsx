@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => (
   <>
     <div className="container">
-      <h1>Get intouch to me</h1>
+      <h1>Get Intouch With Me</h1>
       <div>
         <form action="">
           <input type="text" required name="name" id="name" placeholder="Name" />

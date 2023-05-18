@@ -1,5 +1,5 @@
 /* Projects section */
-.projects-tiltle {
+.projects-title {
   text-align: center;
 }
 
@@ -62,11 +62,11 @@
   color: #000;
 }
 
-.gs_reveal {
+/* .gs_reveal {
   opacity: 0;
   visibility: hidden;
   will-change: transform, opacity;
-}
+} */
 
 /* __________________Mobile____________________ */
 

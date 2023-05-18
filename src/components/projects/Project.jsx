@@ -1,57 +1,30 @@
-import React from 'react';
-import './project.css';
+import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import TvShows from '../../assets/img/tv_shows.png';
 import Shop from '../../assets/img/shop.jpg';
 import Budget from '../../assets/img/budget.jpg';
+import './project.css';
 
 const Project = () => {
-  function animateFrom(elem, direction) {
-    const animDirection = direction || 1;
-    let x = 0;
-    let y = animDirection * 100;
-    if (elem.classList.contains('gs_reveal_fromLeft')) {
-      x = -100;
-      y = 0;
-    } else if (elem.classList.contains('gs_reveal_fromRight')) {
-      x = 100;
-      y = 0;
-    }
-    elem.style.transform = `translate(${x}px, ${y}px)`;
-    elem.style.opacity = '0';
-    gsap.fromTo(elem, { x, y, autoAlpha: 0 }, {
-      duration: 1.25,
-      x: 0,
-      y: 0,
-      autoAlpha: 1,
-      ease: 'expo',
-      overwrite: 'auto',
-    });
-  }
-
-  function hide(elemenemt) {
-    gsap.set(elemenemt, { autoAlpha: 0 });
-  }
-
-  document.addEventListener('DOMContentLoaded', () => {
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.utils.toArray('.gs_reveal').forEach((elem) => {
-      hide(elem);
+      gsap.set(elem, { autoAlpha: 0 });
 
       ScrollTrigger.create({
         trigger: elem,
-        onEnter() { animateFrom(elem); },
-        onEnterBack() { animateFrom(elem, -1); },
-        onLeave() { hide(elem); },
+        onEnter: () => gsap.fromTo(elem, { autoAlpha: 0 }, { duration: 1, autoAlpha: 1 }),
+        onEnterBack: () => gsap.fromTo(elem, { autoAlpha: 0 }, { duration: 1, autoAlpha: 1 }),
+        onLeave: () => gsap.set(elem, { autoAlpha: 0 }),
       });
     });
-  });
+  }, []);
 
   return (
     <section className="projects-section">
-      <h2 className="projects-tiltle">Projects</h2>
+      <h2 className="projects-title">Projects</h2>
       <div className="projects">
         <div className="project">
           <div className="project-img gs_reveal gs_reveal_fromLeft">
@@ -94,10 +67,9 @@ const Project = () => {
               <span>React</span>
               <span>Redux</span>
               <span>TailwindCSS</span>
-
             </div>
             <div className="project-links">
-              <a className="project-link" href="https://shop-comer.netlify.app/" target='_blank'>View Live</a>
+              <a className="project-link" href="https://shop-comer.netlify.app/" target="_blank" rel="noreferrer">View Live</a>
             </div>
           </div>
         </div>

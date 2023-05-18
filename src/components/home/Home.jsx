@@ -7,7 +7,6 @@ import GithubIcon from '../../assets/img/github_btn_icon.svg';
 import TwitterIcon from '../../assets/img/twiter_icon.svg';
 import LinkedinIcon from '../../assets/img/Linkedin_icon.svg';
 import MediumIcon from '../../assets/img/medium_icon.svg';
-import Footer from '../footer/Footer';
 
 const Home = () => (
   <>
@@ -60,9 +59,6 @@ const Home = () => (
       </section>
       <section>
         <Contact />
-      </section>
-      <section>
-        <Footer />
       </section>
     </main>
     <div className="animated-background" />

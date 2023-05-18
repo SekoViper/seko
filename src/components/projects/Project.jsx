@@ -97,7 +97,7 @@ const Project = () => {
 
             </div>
             <div className="project-links">
-              <a className="project-link" href="#!">View Live</a>
+              <a className="project-link" href="https://shop-comer.netlify.app/" target='_blank'>View Live</a>
             </div>
           </div>
         </div>

@@ -37,6 +37,10 @@
   width: fit-content;
 }
 
+.projects-section {
+  margin-top: 40px;
+}
+
 .projects {
   margin-bottom: 90px;
 }
@@ -56,17 +60,27 @@
   width: fit-content;
 }
 
+.source-link {
+  background-color: #ff6f00;
+  width: fit-content;
+  padding: 10px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
 .project-links :hover {
   border: solid 1px #000;
-  background-color: chocolate;
+  background-color: #ff6f00;
   color: #000;
 }
 
-/* .gs_reveal {
-  opacity: 0;
-  visibility: hidden;
-  will-change: transform, opacity;
-} */
 
 /* __________________Mobile____________________ */
 

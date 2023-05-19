@@ -7,12 +7,29 @@ import closeIcon from '../../assets/img/close-icon.png';
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   useEffect(() => {
     gsap.fromTo('.nav-link-item', { opacity: 0, y: -20 }, {
-      opacity: 1, y: 0, duration: 1, stagger: 0.5, delay: 1, ease: 'power2.out',
+      opacity: 1, y: 0, duration: 1, stagger: 0.2, delay: 0.1, ease: 'power2.out',
     });
-  });
+
+    // Handle scroll event
+    const handleScroll = () => {
+      const scrollThreshold = 200; // Adjust the threshold as needed
+      const shouldStick = window.scrollY > scrollThreshold;
+
+      setIsSticky(shouldStick);
+    };
+
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -22,10 +39,10 @@ const Nav = () => {
   };
 
   return (
-    <nav>
+    <nav className={isSticky ? 'sticky' : ''}>
       <ul>
         <div>
-          <li className="nav-link-item">
+          <li>
             <h2 className="logo">SekoViper</h2>
           </li>
         </div>
@@ -65,7 +82,7 @@ const Nav = () => {
               </li>
 
               <li className="nav-link-item">
-                <NavLink className="resume-link" exact to="/resume">
+                <NavLink className="resume-link" exact to="https://docs.google.com/document/d/1ixqf4D7_PVkDfi28uLhxtCvjj8pS_N8MkW18tHStZTk/edit?usp=sharing">
                   Check My Resume
                 </NavLink>
               </li>
@@ -92,7 +109,7 @@ const Nav = () => {
             </li>
 
             <li className="nav-link-item">
-              <NavLink className="resume-link" exact to="/resume">
+              <NavLink className="resume-link" target="_blank" exact to="https://docs.google.com/document/d/1ixqf4D7_PVkDfi28uLhxtCvjj8pS_N8MkW18tHStZTk/edit?usp=sharing">
                 Resume
               </NavLink>
             </li>

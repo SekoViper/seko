@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 20px;
 }
 
@@ -30,9 +30,9 @@ textarea {
   background-color: transparent;
 }
 
-input,
+input::placeholder,
 textarea::placeholder {
-  color: #fff !important;
+  color: #ececec !important;
 }
 
 input:focus,
@@ -44,6 +44,7 @@ button[type="submit"] {
   background-color: #ff6f00;
   color: #fff;
   cursor: pointer;
+  width: fit-content;
 }
 
 button[type="submit"]:hover {

@@ -1,7 +1,6 @@
 /* footer.css */
 footer {
   color: #fff;
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -43,6 +42,19 @@ a {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+
+hr {
+  width: 100%;
+  border: solid 0.5px #fff;
+}
+
+.copy-right {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 /* Responsive styles */

@@ -3,6 +3,14 @@ nav {
   border-bottom: solid 1px #ffffff1a;
 }
 
+nav.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(45deg, rgba(255, 128, 0, 0.85), rgba(0, 0, 0, 0.85));
+  z-index: 1000;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -87,11 +95,6 @@ ul li a:hover {
     line-height: 2.3;
     height: 80vh;
   }
-
-  /* .menu-items.show {
-    display: flex;
-    animation: none;
-  } */
 }
 
 @media only screen and (max-width: 480px) {
@@ -123,5 +126,13 @@ ul li a:hover {
 
   .menu-desktop {
     display: none;
+  }
+
+  nav.sticky {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(255, 128, 0, 0.85), rgba(0, 0, 0, 0.85));
+    z-index: 1000;
   }
 }

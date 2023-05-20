@@ -28,7 +28,7 @@ const Home = () => (
             Hi I&apos;m &nbsp;
             <span className="firstname">Livingstone</span>
           </h1>
-          <h2>A full-stack Developer</h2>
+          <h2>A full-stack developer</h2>
         </div>
         <p>
           A highly skilled and passionate full-stack developer.
@@ -37,6 +37,7 @@ const Home = () => (
           track record of delivering high-quality web and mobile
           applications that meet and exceed client expectations.
         </p>
+        <h4>Let&apos;s connect</h4>
         <div className="social-icons">
           <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" className="social-icon" /></a>
           <a href="https://twitter.com/sekoviper" target="_blank" rel="noreferrer"><img src={TwitterIcon} alt="Twiter" className="social-icon" /></a>

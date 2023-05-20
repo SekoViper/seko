@@ -64,7 +64,7 @@ const Project = () => {
             <img src={Shop} alt="shop" />
           </div>
           <div className="project-content">
-            <h3 className="gs_reveal">E-cormernce App</h3>
+            <h3 className="gs_reveal">E-commerce App</h3>
             <p className="gs_reveal">
               The app aims to provide customers with a seamless and convenient
               shopping experience by

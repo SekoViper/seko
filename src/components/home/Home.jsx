@@ -11,12 +11,13 @@ import MediumIcon from '../../assets/img/medium_icon.svg';
 import Tailwind from '../../assets/stacks/ARC.png';
 import CSS from '../../assets/stacks/CSS.png';
 import Ruby from '../../assets/stacks/Diamond.png';
-import JS from '../../assets/stacks/JS.png';
+import JS from '../../assets/stacks/js.png';
 import HTML from '../../assets/stacks/HTML.png';
 import ReactIcon from '../../assets/stacks/SEKO 1.png';
 import PostgreSQL from '../../assets/stacks/PostgreSQL.png';
 import Rails from '../../assets/stacks/RAILS.png';
 import Redux from '../../assets/stacks/Redux.png';
+import Jest from '../../assets/stacks/JEST.png';
 
 const Home = () => (
   <>
@@ -74,6 +75,7 @@ const Home = () => (
               <img src={Redux} alt="Redux" />
               <img src={PostgreSQL} alt="Postgresql" />
               <img src={ReactIcon} alt="React" />
+              <img src={Jest} alt="Jest" />
             </div>
           </div>
           <br />

@@ -4,12 +4,13 @@ import ProfileImg from '../../assets/img/Seko Dameh Livingstone.jpg';
 import Tailwind from '../../assets/stacks/ARC.png';
 import CSS from '../../assets/stacks/CSS.png';
 import Ruby from '../../assets/stacks/Diamond.png';
-import JS from '../../assets/stacks/JS.png';
+import JS from '../../assets/stacks/js.png';
 import HTML from '../../assets/stacks/HTML.png';
 import ReactIcon from '../../assets/stacks/SEKO 1.png';
 import PostgreSQL from '../../assets/stacks/PostgreSQL.png';
 import Rails from '../../assets/stacks/RAILS.png';
 import Redux from '../../assets/stacks/Redux.png';
+import Jest from '../../assets/stacks/JEST.png';
 
 const About = () => (
   <section className="about-sect">
@@ -45,6 +46,7 @@ const About = () => (
             <img src={Redux} alt="Redux" />
             <img src={PostgreSQL} alt="Postgresql" />
             <img src={ReactIcon} alt="React" />
+            <img src={Jest} alt="Jest" />
           </div>
         </div>
       </div>

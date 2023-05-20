@@ -87,8 +87,9 @@
   width: 100vw;
   height: 100vh;
   background: linear-gradient(45deg, #ff7e00, #000);
-  animation: animateBackground 5s linear infinite;
+  animation: animateBackground 2s linear infinite;
   pointer-events: none;
+  background-position: 0%;
   z-index: -1;
 }
 
@@ -150,7 +151,6 @@ button {
 
 .social-icons {
   display: flex;
-  margin-top: 2rem;
   gap: 27px;
 }
 
@@ -177,6 +177,7 @@ button {
 
 .about-section .content {
   width: 65%;
+  padding-left: 2rem;
 }
 
 .about-section .img {
@@ -225,8 +226,9 @@ button {
   }
 
   .about-section .content {
-    width: 100%;
     padding-top: 40px;
+    width: 100%;
+    padding-left: 0.2rem;
   }
 
   .about-section .img {

@@ -4,7 +4,7 @@ import './contact.css';
 const Contact = () => (
   <>
     <div className="container">
-      <h1>Get Intouch With Me</h1>
+      <h1>Get In Touch With Me</h1>
       <div>
         <form
           id="fs-frm"

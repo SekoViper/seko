@@ -28,8 +28,8 @@ const About = () => (
           by delivering top-notch web and mobile applications.
         </p>
         <p>
-          Fueling his unwavering commitment to programming is Livingstone&apos;s
-          lifelong ardor, which ignited during his formative years and has
+          Fueling my unwavering commitment to programming, my passion for
+          lifelong ardor, which ignited during my formative years and has
           continued to flourish ever since.
         </p>
         <div className="stacks">

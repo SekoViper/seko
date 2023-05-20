@@ -31,11 +31,11 @@ const Home = () => (
           <h2>Full-stack Developer</h2>
         </div>
         <p>
-          A highly skilled and passionate full-stack developer
-          hailing from the beautiful country of Ghana. With years of
-          experience under his belt, Livingstone has a proven track
-          record of delivering high-quality web and mobile
-          applications that meet and exceed client expectations.
+          A highly skilled and passionate full-stack developer hailing
+          from the beautiful country of Ghana. With years of experience
+          under my belt,I have a proven track record of delivering
+          high-quality web and mobile applications that meet and
+          exceed client expectations.
         </p>
         <div className="social-icons">
           <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" className="social-icon" /></a>
@@ -52,14 +52,15 @@ const Home = () => (
         <div className="content">
           <h2>About Me</h2>
           <p>
-            Meet Livingstone, a highly skilled and passionate full-stack developer
-            hailing from the beautiful country of Ghana. With years of experience under
-            his belt, Livingstone has a proven track record of delivering high-quality web
-            and mobile applications that meet and exceed client expectations.
+            I am a highly skilled and passionate full-stack developer
+            with years of experience under my belt, I have a proven
+            track record of delivering high-quality web and
+            mobile applications that meet and exceed client
+            expectations.
           </p>
           <p>
-            Livingstone’s passion for programming started at a young age and has only
-            grown stronger over the years.
+            My passion for programming started at a young age and
+            has only grown stronger over the years.
           </p>
           <div className="stacks">
             Here are some of the technologies I use to build dynamic web apps:

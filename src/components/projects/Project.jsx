@@ -94,39 +94,6 @@ const Project = () => {
       <div className="projects">
         <div className="project">
           <div className="project-img gs_reveal gs_reveal_fromLeft">
-            <img src={Shop} alt="shop" />
-          </div>
-          <div className="project-content">
-            <h3 className="gs_reveal">E-commerce App</h3>
-            <p className="gs_reveal">
-              The app aims to provide customers with a seamless and convenient
-              shopping experience by
-              allowing them to browse and purchase items from an online
-              store directly from their mobile devices.
-              It combines user-friendly design, intuitive navigation, and secure transactions to
-              enhance the overall shopping process.
-            </p>
-            <div className="project-built">
-              <span>React</span>
-              <span>Redux</span>
-              <span>TailwindCSS</span>
-            </div>
-            <div className="project-links">
-              <a className="project-link" href="https://shop-comer.netlify.app/" target="_blank" rel="noreferrer">Live</a>
-              <a className="source-link" href="https://github.com/SekoViper/ecommerce">
-                {' '}
-                <img src={GithhubIcon} alt="github icon" />
-                {' '}
-                Code
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="projects">
-        <div className="project">
-          <div className="project-img gs_reveal gs_reveal_fromLeft">
             <img src={Budget} alt="shop" />
           </div>
           <div className="project-content">

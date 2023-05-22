@@ -4,6 +4,7 @@ import { gsap } from 'gsap';
 import './nav.css';
 import menuIcon from '../../assets/img/menu-icon.png';
 import closeIcon from '../../assets/img/close-icon.png';
+import Resume from '../../assets/files/Seko_Livingstone_Dameh - Resume.pdf';
 
 const Nav = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -43,7 +44,7 @@ const Nav = () => {
       <ul>
         <div>
           <li>
-            <h2 className="logo">SekoViper</h2>
+            <h2 className="logo">Livingstone</h2>
           </li>
         </div>
         {/* mobile menu */}
@@ -82,7 +83,7 @@ const Nav = () => {
               </li>
 
               <li className="nav-link-item">
-                <NavLink className="resume-link" exact to="https://docs.google.com/document/d/1ixqf4D7_PVkDfi28uLhxtCvjj8pS_N8MkW18tHStZTk/edit?usp=sharing">
+                <NavLink className="resume-link" exact target="_blank" to={Resume}>
                   Check My Resume
                 </NavLink>
               </li>
@@ -109,7 +110,7 @@ const Nav = () => {
             </li>
 
             <li className="nav-link-item">
-              <NavLink className="resume-link" target="_blank" exact to="https://docs.google.com/document/d/1ixqf4D7_PVkDfi28uLhxtCvjj8pS_N8MkW18tHStZTk/edit?usp=sharing">
+              <NavLink className="resume-link" target="_blank" exact to={Resume}>
                 Resume
               </NavLink>
             </li>

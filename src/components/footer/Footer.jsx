@@ -9,7 +9,7 @@ const Footer = () => (
   <div>
     <footer>
       <div>
-        <h3>SekoViper</h3>
+        <h3>Livingstone</h3>
       </div>
       <div>
         <h4>Quick Links</h4>
@@ -31,7 +31,7 @@ const Footer = () => (
       </div>
     </footer>
     <hr />
-    <div className="copy-right">© 2023 SekoViper. All rights reserved.</div>
+    <div className="copy-right">© 2023 Livingstone. All rights reserved.</div>
   </div>
 );
 

@@ -81,9 +81,14 @@ const Home = () => (
             </div>
           </div>
           <br />
-          <NavLink className="btn-abt" exact to="/about">
-            get to know more
-          </NavLink>
+          <div className="contact-btns">
+            <NavLink className="btn-abt" exact to="/about">
+              Read more
+            </NavLink>
+            <NavLink className="btn-contact" exact to="/contact">
+              Contact me
+            </NavLink>
+          </div>
         </div>
       </section>
       <section>

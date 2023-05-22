@@ -6,6 +6,7 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Project from './components/projects/Project';
 import Footer from './components/footer/Footer';
+import Whatsapp from './components/whatsapp/Whatsapp';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/projects" element={<Project />} />
         </Routes>
+        <Whatsapp />
         <Footer />
       </div>
     </Router>

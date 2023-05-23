@@ -5,7 +5,6 @@ import Project from '../projects/Project';
 import Contact from '../contact/Contact';
 import profilePic from '../../assets/img/Seko _Dameh_Livingstone_about_img.png';
 import GithubIcon from '../../assets/img/github_btn_icon.svg';
-import TwitterIcon from '../../assets/img/twiter_icon.svg';
 import LinkedinIcon from '../../assets/img/Linkedin_icon.svg';
 import MediumIcon from '../../assets/img/medium_icon.svg';
 import Tailwind from '../../assets/stacks/ARC.png';
@@ -40,7 +39,6 @@ const Home = () => (
         <h4>Let&apos;s connect</h4>
         <div className="social-icons">
           <a href="https://github.com/SekoViper" target="_blank" rel="noreferrer"><img src={GithubIcon} alt="Github" className="social-icon" /></a>
-          <a href="https://twitter.com/sekoviper" target="_blank" rel="noreferrer"><img src={TwitterIcon} alt="Twiter" className="social-icon" /></a>
           <a href="https://linkedin.com/in/livingstone-dameh-b755a5151" target="_blank" rel="noreferrer"><img src={LinkedinIcon} alt="LinkedIn" className="social-icon" /></a>
           <a href="https://medium.com/@damehlivingstone1/vite-vs-create-reactapp-2ebbcd067d46" target="_blank" rel="noreferrer"><img src={MediumIcon} alt="Medium" className="social-icon" /></a>
         </div>

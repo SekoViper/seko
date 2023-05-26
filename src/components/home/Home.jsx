@@ -25,6 +25,8 @@ const Home = () => (
         <div>
           <h1>
             Hi I&apos;m &nbsp;
+            {' '}
+            <br />
             <span className="firstname">Livingstone</span>
           </h1>
           <h2>A full-stack developer</h2>

@@ -13,7 +13,7 @@ const Whatsapp = () => {
 
   return (
     <div className="whatsapp-icon" onClick={handleClick}>
-      <FaWhatsapp size={48} />
+      <FaWhatsapp size={32} />
     </div>
   );
 };

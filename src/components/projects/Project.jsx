@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import TvShows from '../../assets/img/tv_shows.png';
 import Shop from '../../assets/img/shop.jpg';
 import Budget from '../../assets/img/budget.jpg';
 import NGCCongres from '../../assets/img/NGC_Congress.jpg';
@@ -54,37 +53,6 @@ const Project = () => {
                 <img src={GithhubIcon} alt="github icon" />
                 {' '}
                 Code
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="projects">
-        <div className="project">
-          <div className="project-img gs_reveal gs_reveal_fromLeft">
-            <img src={TvShows} alt="Tv Shows" />
-          </div>
-          <div className="project-content">
-            <h3 className="gs_reveal">TV Shows</h3>
-            <p className="gs_reveal">
-              A web application that allows users to search for their favorite TV
-              shows and get details about them.
-              It also allows users to create an account and save their favorite TV shows.
-              This project was built using React, Redux, and the TV Maze API.
-            </p>
-            <div className="project-built">
-              <span>React</span>
-              <span>Redux</span>
-              <span>API</span>
-            </div>
-            <div className="project-links">
-              <a className="project-link" href="https://sekoviper.github.io/Tv-Shows/dist/">Live</a>
-              <a className="source-link" href="https://github.com/SekoViper/Tv-Shows">
-                {' '}
-                <img src={GithhubIcon} alt="github icon" />
-                {' '}
-                Source
               </a>
             </div>
           </div>
